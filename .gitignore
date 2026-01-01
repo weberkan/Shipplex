@@ -1,0 +1,37 @@
+# Backend
+backend/node_modules/
+backend/.env
+backend/*.log
+
+# Flutter
+coin_app/.dart_tool/
+coin_app/.packages
+coin_app/.pub-cache/
+coin_app/.pub/
+coin_app/build/
+coin_app/*.iml
+coin_app/.metadata
+coin_app/.flutter-plugins
+coin_app/.flutter-plugins-dependencies
+
+# Android
+coin_app/android/.gradle/
+coin_app/android/app/debug/
+coin_app/android/app/profile/
+coin_app/android/app/release/
+coin_app/android/local.properties
+coin_app/android/*.keystore
+
+# iOS
+coin_app/ios/.symlinks/
+coin_app/ios/Pods/
+coin_app/ios/Flutter/Flutter.framework
+coin_app/ios/Flutter/Flutter.podspec
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
